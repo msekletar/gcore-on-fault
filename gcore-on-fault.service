@@ -1,0 +1,6 @@
+[Service]
+Type=exec
+ExecStart=/usr/local/libexec/gcore-on-fault.sh
+
+[Install]
+WantedBy=multi-user.target
